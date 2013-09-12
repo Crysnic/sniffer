@@ -5,4 +5,4 @@ clean:
 	@rm sniffer
 
 test:
-	@./sniffer -i eth0 -f "port 23"
+	@./sniffer -i eth0 -f ip
